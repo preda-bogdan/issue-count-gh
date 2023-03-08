@@ -1,0 +1,14 @@
+{
+  "name": "issue-count",
+  "version": "1.0.0",
+  "description": "A package that fetches issues from a Github repository with a specific label and within a given time frame.",
+  "bin": {
+    "issue-count-gh": "./index.js"
+  },
+  "author": "Bogdan Preda",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/core": "^4.2.0",
+    "commander": "^10.0.0"
+  }
+}
